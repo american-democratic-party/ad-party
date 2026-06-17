@@ -1,16 +1,16 @@
 {
-   "name": "ad-website",
+   "name": "ad-party",
    "version": "1.0.0",
    "description": "🇺🇸 American Democratic Party 🇺🇸",
    "license": "CC0-1.0",
    "type": "module",
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/american-democratic-party/ad-website.git"
+      "url": "git+https://github.com/american-democratic-party/ad-party.git"
    },
    "homepage": "https://american-democratic-party.org",
-   "bugs": "https://github.com/american-democratic-party/ad-website/issues",
-   "docs": "https://github.com/american-democratic-party/ad-website#readme",
+   "bugs": "https://github.com/american-democratic-party/ad-party/issues",
+   "docs": "https://github.com/american-democratic-party/ad-party#readme",
    "author": "American Democratic Party (https://american-democratic-party.org)",
    "keywords": [
       "american",

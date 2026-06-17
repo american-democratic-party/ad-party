@@ -3,9 +3,9 @@
 # American Democratic Party
 ### 🇺🇸 Liberal Principles from Common Sense 🇺🇸
 
-[![License:MIT](https://img.shields.io/badge/License-CC0-blue.svg)](https://github.com/american-democratic-party/ad-website/blob/main/LICENSE.txt)
-[![Build](https://github.com/american-democratic-party/ad-website/actions/workflows/run-spec-on-push.yaml/badge.svg)](https://github.com/american-democratic-party/ad-website/actions/workflows/run-spec-on-push.yaml)
-[![Publish Website](https://github.com/american-democratic-party/ad-website/actions/workflows/publish-website.yaml/badge.svg)](https://github.com/american-democratic-party/ad-website/actions/workflows/publish-website.yaml)
+[![License:MIT](https://img.shields.io/badge/License-CC0-blue.svg)](https://github.com/american-democratic-party/ad-party/blob/main/LICENSE.txt)
+[![Build](https://github.com/american-democratic-party/ad-party/actions/workflows/run-spec-on-push.yaml/badge.svg)](https://github.com/american-democratic-party/ad-party/actions/workflows/run-spec-on-push.yaml)
+[![Publish Website](https://github.com/american-democratic-party/ad-party/actions/workflows/publish-website.yaml/badge.svg)](https://github.com/american-democratic-party/ad-party/actions/workflows/publish-website.yaml)
 
 This project manages the website:<br>
 https://american-democratic-party.org
@@ -17,7 +17,7 @@ Gaslighting and wokeism are not welcome here.
 
 ## Contributor Notes
 ```shell
-$ cd ad-website
+$ cd ad-party
 $ npm install
 $ npm run interactive
 ```

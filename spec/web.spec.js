@@ -1,4 +1,4 @@
-// ad-website
+// ad-party
 // Mocha Specification Suite
 
 // Imports
