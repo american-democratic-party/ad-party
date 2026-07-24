@@ -15,8 +15,8 @@ Use Template to Create New Article
       "articleTitle" variable to the title of your new
       article using title case.  Save the file.
 
-5. Execute the terminal command:
-      $ npm run interactive
+5. Execute the "i" script to launch interactive mode:
+      $ npm run i
 
 6. Visit:
       http://localhost:3000/docs/article-list

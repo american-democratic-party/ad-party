@@ -1,6 +1,7 @@
 {% assign articleTitle = 'Media' %}
 {% assign heroImage =    webRoot | append: '/assets/backgrounds/american-flag-by-tim-mossholder-QsX23A3NgMQ-unsplash.jpg' %}
 {% assign heroCaption =  'Media' %}
+{% assign flagGist =     'https://gist.github.com/pilafmon/4b19b5bcbe51e47fdd5fb5de157057d6' %}
 {% assign logosUrl =     'https://github.com/american-democratic-party/ad-party/blob/main/src/website/assets/logos' %}
 {% assign instructions = '"Hit Shift+Cmd+3 to capture screena and then flatten retina from the Terminal with: sips -s dpiHeight 72 -s dpiWidth 72 ~/Desktop/*.png"' %}
 {% render 'src/templates/doc-begin.html', articleTitle: articleTitle, heroImage: heroImage, heroCaption: heroCaption %}
@@ -11,26 +12,39 @@
       <h2>{{articleTitle}}</h2>
    </section>
 
+   <section id=flag>
+      <h2>American Flag</h2>
+      <figure data-picture-size=2>
+         <img src={{webRoot}}/assets/american-flag.svg alt=flag>
+         <figcaption class=external-site>
+            <code data-href={{flagGist}}>american-flag.svg</code> &nbsp; (1.4 KB) &nbsp;
+            <a href={{flagGist}} title=SVG><i data-icon=code></i></a><br>
+            <code data-href={{flagGist}}>american-flag.png</code> &nbsp; (9.7 KB) &nbsp;
+            <a href={{flagGist}} title=SVG><i data-icon=code></i></a>
+         </figcaption>
+      </figure>
+   </section>
+
    <section id=logo class=image-viewer>
       <h2>Bison Logo</h2>
       <figure data-target-width=650 title={{instructions}}>
          <img src={{webRoot}}/assets/logos/ad-bison-logo.svg alt=logo>
          <figcaption>
-            <code>ad-bison-logo.svg</code> &nbsp; 650&times;450 &nbsp;
-            <a href={{logosUrl}}/ad-bison-logo.svg class=external-site title=XML><i data-icon=code></i></a>
+            <code>ad-bison-logo.svg</code> &nbsp; (650&times;450) &nbsp;
+            <a href={{logosUrl}}/ad-bison-logo.svg class=external-site title=SVG><i data-icon=code></i></a>
          </figcaption>
       </figure>
       <figure>
          <img src={{webRoot}}/assets/logos/ad-bison-logo.png alt=logo>
-         <figcaption><code>ad-bison-logo.png</code> &nbsp; 650&times;450</figcaption>
+         <figcaption><code>ad-bison-logo.png</code> &nbsp; (650&times;450)</figcaption>
       </figure>
       <figure>
          <img src={{webRoot}}/assets/logos/ad-bison-logo-2x.png alt=logo>
-         <figcaption><code>ad-bison-logo-2x.png</code> &nbsp; 1300&times;900</figcaption>
+         <figcaption><code>ad-bison-logo-2x.png</code> &nbsp; (1300&times;900)</figcaption>
       </figure>
       <figure>
          <img src={{webRoot}}/assets/logos/ad-bison-logo-sq.png alt=logo>
-         <figcaption><code>ad-bison-logo-sq.png</code> &nbsp; 500&times;500</figcaption>
+         <figcaption><code>ad-bison-logo-sq.png</code> &nbsp; (500&times;500)</figcaption>
       </figure>
    </section>
 
@@ -39,7 +53,7 @@
       <div>Trim padding from square png and resize.</div>
       <figure>
          <img src={{webRoot}}/assets/bookmark-icon.png alt=bookmark>
-         <figcaption><code>bookmark-icon.png</code> &nbsp; 192&times;192</figcaption>
+         <figcaption><code>bookmark-icon.png</code> &nbsp; (192&times;192)</figcaption>
       </figure>
    </section>
 
@@ -51,7 +65,7 @@
       </figure>
       <figure>
          <img src={{webRoot}}/assets/logos/ad-logo-card.png alt=logo>
-         <figcaption><code>ad-logo-card.png</code> &nbsp; 1200&times;630</figcaption>
+         <figcaption><code>ad-logo-card.png</code> &nbsp; (1200&times;630)</figcaption>
       </figure>
    </section>
 
@@ -60,26 +74,26 @@
       <figure data-target-width=500 title={{instructions}}>
          <img src={{webRoot}}/assets/logos/ad-circle-logo.svg alt=logo>
          <figcaption>
-            <code>ad-circle-logo.svg</code> &nbsp; 500&times;500 &nbsp;
-            <a href={{logosUrl}}/ad-circle-logo.svg class=external-site title=XML>
+            <code>ad-circle-logo.svg</code> &nbsp; (500&times;500) &nbsp;
+            <a href={{logosUrl}}/ad-circle-logo.svg class=external-site title=SVG>
                <i data-icon=code></i></a>
          </figcaption>
       </figure>
       <figure>
          <img src={{webRoot}}/assets/logos/ad-circle-logo.png alt=logo>
-         <figcaption><code>ad-circle-logo.png</code> &nbsp; 500&times;500</figcaption>
+         <figcaption><code>ad-circle-logo.png</code> &nbsp; (500&times;500)</figcaption>
       </figure>
       <figure data-target-width=500 title={{instructions}}>
          <img src={{webRoot}}/assets/logos/ad-circle-logo-white.svg alt=logo>
          <figcaption>
-            <code>ad-circle-logo.svg</code> &nbsp; 500&times;500 &nbsp;
-            <a href={{logosUrl}}/ad-circle-logo-white.svg class=external-site title=XML>
+            <code>ad-circle-logo.svg</code> &nbsp; (500&times;500) &nbsp;
+            <a href={{logosUrl}}/ad-circle-logo-white.svg class=external-site title=SVG>
                <i data-icon=code></i></a>
          </figcaption>
       </figure>
       <figure>
          <img src={{webRoot}}/assets/logos/ad-circle-logo-white.png alt=logo>
-         <figcaption><code>ad-circle-logo-white.png</code> &nbsp; 500&times;500</figcaption>
+         <figcaption><code>ad-circle-logo-white.png</code> &nbsp; (500&times;500)</figcaption>
       </figure>
    </section>
 
@@ -90,7 +104,7 @@
       </figure>
       <figure>
          <img src={{webRoot}}/assets/logos/ad-flag-banner.jpg alt=banner>
-         <figcaption><code>ad-flag-banner.jpg</code> &nbsp; 1400&times;200</figcaption>
+         <figcaption><code>ad-flag-banner.jpg</code> &nbsp; (1400&times;200)</figcaption>
       </figure>
    </section>
 
